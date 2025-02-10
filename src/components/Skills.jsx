@@ -14,7 +14,7 @@ function Skills() {
         icon: "https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256"
       },
       {
-        name: "Node.js",
+        name: "Node",
         percentage: 95,
         icon: "https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon-thumbnail.png"
       },
