@@ -7,7 +7,7 @@ import Experience from '../components/Experience'
 import Contact from '../components/Contact'
 import resume from '../assets/Harikrishnan_Resume.pdf'
 import image from '../images/image blur.jpg'
-import UpButton from '../components/upButton'
+import UpButton from '../components/UpButton'
 
 function Home() {
     return (
