@@ -56,7 +56,6 @@ function Experience() {
         )}
       </div>
 
-
       <h2 className="text-4xl pt-20 font-roboto bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500" id='education'>
         EDUCATION
       </h2>
@@ -64,7 +63,6 @@ function Experience() {
         <div className="bg-gray-800 p-6 shadow-lg border-2.5 border-gradient rounded-lg">
           <h3 className="text-xl font-semibold font-roboto text-white">BSc Computer Science</h3>
           <p className="text-purple-400 font-raleway">Kannur University / 2020 - 2023</p>
-
           <div className="mt-2 flex items-center space-x-2">
             <span className="text-white font-medium text-lg">CGPA:</span>
             <span className="text-blue-400 font-bold text-lg">7.4</span>
