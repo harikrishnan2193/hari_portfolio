@@ -3,7 +3,6 @@ import React, { useState } from "react";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     message: "",
   });
 
@@ -14,12 +13,12 @@ function Contact() {
   // function for sent message
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, message } = formData;
-    if (!name || !email || !message) {
+    const { name, message } = formData;
+    if (!name || !message) {
       alert("Please fill all fields before sending the message.");
       return;
     }
-    const whatsappMessage = `Hello, my name is ${name}. My email id is ${email}. Here is my message: ${message}`;
+    const whatsappMessage = `Hello, my name is ${name}. My message is: ${message}`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
     const whatsappLink = `https://wa.me/9495312193?text=${encodedMessage}`;
     window.open(whatsappLink, "_blank");
@@ -63,16 +62,6 @@ function Contact() {
                 type="text"
                 name="name"
                 value={formData.name}
-                onChange={handleChange}
-                className="w-full p-3 bg-gray-900 text-white rounded-2xl"
-              />
-            </div>
-            <div>
-              <label className="block text-gray-400 mb-2">Email</label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
                 onChange={handleChange}
                 className="w-full p-3 bg-gray-900 text-white rounded-2xl"
               />
