@@ -3,7 +3,6 @@ import envmanage from '../images/image-envmanager.png'
 import blending from '../images/image-blending.png'
 import event from '../images/image-event.png'
 import ecart from '../images/image-ecart.png'
-import hp from '../images/image-hp.png'
 import projectfair from '../images/image-projectfair.png'
 import mediaplayer from '../images/image-mediaplayer.png'
 import findspot from '../images/image-wehiclespot.png'
@@ -65,12 +64,12 @@ function Projects() {
         hostLink: "https://shope-mart-front-end.vercel.app/"
       },
       {
-        projectName: "Hp website clone",
-        discription: "Designed the front end of famous hp website with component reusability.",
-        technology: "React, HTML, CSS",
-        projectImage: hp,
-        githubLink: "https://github.com/harikrishnan2193/Hp-website-clone",
-        hostLink: "https://hp-website-clone.vercel.app/"
+        projectName: "Find a spot",
+        discription: "Find a spot in a location for park your vehicle. It includes find vehicle and checkout section, the checkout section shows the calculated amount for your parking.",
+        technology: "React, Node, TypeScript, Express.js, MySQL",
+        projectImage: findspot,
+        githubLink: "https://github.com/harikrishnan2193/parking_sport_backend",
+        hostLink: "https://parking-sport-frontend.vercel.app/"
       },
       {
         projectName: "Media player",
