@@ -81,14 +81,6 @@ function Projects() {
         hostLink: "https://media-player-front-end-rose.vercel.app/"
       },
       {
-        projectName: "Find a spot",
-        discription: "Find a spot in a location for park your vehicle. It includes find vehicle and checkout section, the checkout section shows the calculated amount for your parking.",
-        technology: "React, Node, TypeScript, Express.js, MySQL",
-        projectImage: findspot,
-        githubLink: "https://github.com/harikrishnan2193/parking_sport_backend",
-        hostLink: "https://parking-sport-frontend.vercel.app/"
-      },
-      {
         projectName: "Longway travels",
         discription: "Designed front end of a travel website, a fully responsive front-end for travel website.",
         technology: "Html, CSS, Bootstrap",
