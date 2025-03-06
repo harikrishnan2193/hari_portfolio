@@ -8,7 +8,7 @@ import projectfair from '../images/image-projectfair.png'
 import mediaplayer from '../images/image-mediaplayer.png'
 import findspot from '../images/image-wehiclespot.png'
 import travel from '../images/image-travel.png'
-import yshope from '../images/y-shope'
+import yshope from '../images/y-shope.png'
 
 
 function Projects() {
