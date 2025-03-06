@@ -49,20 +49,20 @@ function Projects() {
         hostLink: "https://event-front-end-weld.vercel.app/"
       },
       {
-        projectName: "Shop Mart",
-        discription: "A Platform for online shopping, includes add to cart, wishlist and checkout section for place the order.",
-        technology: "Angular, Typescript, Paypal, Node.js",
-        projectImage: ecart,
-        githubLink: "https://github.com/harikrishnan2193/Shope_Mart-Frontend",
-        hostLink: "https://shope-mart-front-end.vercel.app/"
-      },
-      {
         projectName: "Project Fair",
         discription: "A platform for users to showcase their projects, allowing them to add, update, and delete their work. It enables seamless project sharing, making it easy for others to explore and discover showcased projects.",
         technology: "React, Redux, HTML, CSS, Node.js",
         projectImage: projectfair,
         githubLink: "https://github.com/harikrishnan2193/Project_fair-Frontend",
         hostLink: "https://project-fair-frontend-green.vercel.app/"
+      },
+      {
+        projectName: "Shop Mart",
+        discription: "A Platform for online shopping, includes add to cart, wishlist and checkout section for place the order.",
+        technology: "Angular, Typescript, Paypal, Node.js",
+        projectImage: ecart,
+        githubLink: "https://github.com/harikrishnan2193/Shope_Mart-Frontend",
+        hostLink: "https://shope-mart-front-end.vercel.app/"
       },
       {
         projectName: "Hp website clone",
