@@ -8,6 +8,7 @@ import projectfair from '../images/image-projectfair.png'
 import mediaplayer from '../images/image-mediaplayer.png'
 import findspot from '../images/image-wehiclespot.png'
 import travel from '../images/image-travel.png'
+import yshope from '../images/y-shope'
 
 
 function Projects() {
@@ -22,6 +23,14 @@ function Projects() {
         projectImage: envmanage,
         githubLink: "https://github.com/harikrishnan2193/Env_management_bz",
         hostLink: "https://env-management-bz.onrender.com/"
+      },
+      {
+        projectName: "Y Shope",
+        discription: "A Platform for online shopping, includes admin section to add product, update stock, view all orders, view all users",
+        technology: "React, Node.js, Tailwind CSS, MongooDb",
+        projectImage: yshope,
+        githubLink: "https://github.com/harikrishnan2193/y_shope-frontend",
+        hostLink: "https://y-shope-frontend.vercel.app/"
       },
       {
         projectName: "Blending Studio",
@@ -87,7 +96,7 @@ function Projects() {
         githubLink: "https://github.com/harikrishnan2193/Travel-website",
         hostLink: "https://travel-website-neon.vercel.app/"
       }
-    ];
+    ]
 
     setAllProject(projects);
   }, []);
