@@ -21,7 +21,7 @@ function UpButton() {
         isVisible && (
             <div className="fixed bottom-6 right-6 z-50">
                 <Link to="header" duration={400}>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300">
+                    <button className="bg-gradient-to-r from-blue-700 to-purple-800 text-white p-3 rounded-full shadow-lg transition-all duration-300">
                         <i className="fa-solid fa-arrow-up text-xl"></i>
                     </button>
                 </Link>
