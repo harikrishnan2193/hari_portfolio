@@ -35,10 +35,7 @@ function Header() {
                     </button>
                 </nav>
 
-                <div
-                    className={`fixed top-0 right-0 w-3/4 sm:w-1/3 h-full bg-custom-background transition-transform duration-300 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-                        } z-50`}
-                >
+                <div className={`fixed top-0 right-0 w-3/4 sm:w-1/3 h-full bg-custom-background transition-all duration-500 ease-in-out transform ${isMenuOpen ? "translate-x-0 scale-100 opacity-100" : "translate-x-full scale-90 opacity-0"} z-50 shadow-lg`}>
                     <div className="p-5">
                         <button
                             onClick={() => setIsMenuOpen(false)}
