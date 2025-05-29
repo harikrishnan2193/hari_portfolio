@@ -3,11 +3,10 @@ import envmanage from '../images/image-envmanager.png'
 import blending from '../images/image-blending.png'
 import event from '../images/image-event.png'
 import ecart from '../images/image-ecart.png'
-import projectfair from '../images/image-projectfair.png'
-import mediaplayer from '../images/image-mediaplayer.png'
 import findspot from '../images/image-wehiclespot.png'
 import travel from '../images/image-travel.png'
 import yshope from '../images/y-shope.png'
+import blogging from '../images/blogging Web.png'
 
 
 function Projects() {
@@ -32,6 +31,14 @@ function Projects() {
         hostLink: "https://y-shope-frontend.vercel.app/"
       },
       {
+        projectName: "Bloggz",
+        discription: "A dynamic, full-featured blogging website designed to provide a seamless platform for both public visitors and registered users",
+        technology: "React, Node.js, Bootstrap, MongooDb",
+        projectImage: blogging,
+        githubLink: "https://github.com/harikrishnan2193/blogging_website_frontend",
+        hostLink: "https://blogging-website-frontend-three.vercel.app/"
+      },
+      {
         projectName: "Blending Studio",
         discription: "The web application mainly focused on frontend design. It includes responsive pages, landing page with two parallax effects to enhance the user experience, also provides user login and registration features.",
         technology: "React, HTML, CSS, Bootstrap, Node.js, Express.js, MongoDB",
@@ -48,14 +55,6 @@ function Projects() {
         hostLink: "https://event-front-end-weld.vercel.app/"
       },
       {
-        projectName: "Project Fair",
-        discription: "A platform for users to showcase their projects, allowing them to add, update, and delete their work. It enables seamless project sharing, making it easy for others to explore and discover showcased projects.",
-        technology: "React, Redux, HTML, CSS, Node.js",
-        projectImage: projectfair,
-        githubLink: "https://github.com/harikrishnan2193/Project_fair-Frontend",
-        hostLink: "https://project-fair-frontend-green.vercel.app/"
-      },
-      {
         projectName: "Shop Mart",
         discription: "A Platform for online shopping, includes add to cart, wishlist and checkout section for place the order.",
         technology: "Angular, Typescript, Paypal, Node.js",
@@ -70,14 +69,6 @@ function Projects() {
         projectImage: findspot,
         githubLink: "https://github.com/harikrishnan2193/parking_sport_backend",
         hostLink: "https://parking-sport-frontend.vercel.app/"
-      },
-      {
-        projectName: "Media player",
-        discription: "A simple media player app for saving videos, history and category.",
-        technology: "React, JSON Server",
-        projectImage: mediaplayer,
-        githubLink: "https://github.com/harikrishnan2193/Media_Player-Frontend",
-        hostLink: "https://media-player-front-end-rose.vercel.app/"
       },
       {
         projectName: "Longway travels",
