@@ -41,7 +41,7 @@ function Contact() {
             <a href="https://www.linkedin.com/in/harikrishnan-k-9747792a2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/harikrishnan2193?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/harikrishnan2193" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
               <i className="fab fa-github"></i>
             </a>
             <a href="https://wa.me/9495312193" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
